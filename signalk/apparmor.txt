@@ -36,6 +36,7 @@ profile signalk_addon flags=(attach_disconnected,mediate_deleted) {
   /dev/ttyUSB1 rw,
   /dev/ttyusb0 rw,
   /dev/ttyusb1 rw,
+  /dev/can0 rw,
   /bin/** ix,
   /usr/bin/** ix,
   /usr/lib/bashio/** ix,
