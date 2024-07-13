@@ -23,4 +23,6 @@ done
 
 bashio::log.info "Starting application"
 
+bashio::log.info "Testmeddelande"
+
 sudo -u "$USER" -s /bin/sh -c "/home/node/signalk/startup.sh"
